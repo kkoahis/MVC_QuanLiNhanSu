@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 800px; */
+}
+
+.table-title {
+  color: red;
+}
+
+.textbox-input {
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  padding: 4px;
+}
+
+.texarea-input {
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  padding: 4px;
+}
+
+.firebox-input {
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  padding: 4px;
+}
+
+.Browse-btn {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.Browse-btn:hover {
+  cursor: pointer;
+}
+
+.radio-btn {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+
+.checkbox-btn {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.checkbox-btn:hover {
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.reset-btn:hover {
+  cursor: pointer;
+}

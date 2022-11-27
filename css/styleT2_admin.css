@@ -1,0 +1,53 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-option {
+  display: inline-block;
+  width: 100%;
+  margin-top: 108px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.select-option__wrap {
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.select-option__wrap:first-child {
+  padding: 20px 0;
+  border-top: 1px solid;
+}
+
+.home-page {
+  text-decoration: none;
+  color: rgb(216, 19, 19);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.home-page:hover {
+  color: #3965b0;
+}
+
+.page-form {
+  text-decoration: none;
+  color: #363636;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.page-form:hover {
+  color: #3965b0;
+}

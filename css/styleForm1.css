@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input-Username {
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin-left: 9px;
+}
+
+.input-Password {
+  border: 1px solid #ccc;
+  margin-left: 9px;
+  padding: 4px;
+}
+
+.button-form1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.login-btn {
+  font-size: 14px;
+  text-align: center;
+  width: 50px;
+}
+
+.reset-btn {
+  font-size: 14px;
+  text-align: center;
+  width: 50px;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+}
+.reset-btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,214 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #3965b0;
+  z-index: 1;
+}
+
+#navbar {
+  margin-left: 245px;
+  margin-right: 245px;
+  width: calc(99% - 245px - 245px);
+  font-size: 13px;
+  line-height: 40px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#navbar .item {
+  display: inline-block;
+}
+
+.item__option {
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  padding-right: 12px;
+  background: url(/BaiTap1/img/icon-dotted.png) no-repeat left center;
+  padding: 0px 8px 0px 17px;
+}
+
+.item__option--none-dot {
+  background: none;
+  padding: 0px 8px 0px 0px;
+}
+
+.item:hover .item__option {
+  color: #cdddf0;
+}
+
+.item__option--button {
+  padding: 4px 19px;
+  margin: 7px 3px 1px;
+  background: #0a5a99;
+  border-radius: 5px;
+}
+
+.more-item:hover .more-item__list {
+  /* display: block; */
+}
+
+.navbar__list-right {
+  display: flex;
+}
+
+#navbar .more-item {
+  position: absolute;
+  top: 84%;
+  background-color: rgb(75, 142, 208);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.more-item {
+  position: absolute;
+  border-radius: 5px;
+  width: 200px;
+  right: -38px;
+  list-style: none;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  animation: notificationGrowth 0.2s linear;
+  transform-origin: calc(100% - 160px) top;
+  will-change: opacity, transform;
+}
+
+.more-item__list {
+  padding: 6px 0 6px 12px;
+  line-height: 20px;
+  border-bottom: 1px solid #fff;
+  font-size: 13px;
+}
+
+.more-item__list:last-child {
+  border-bottom: none;
+}
+
+.more-item__list:hover {
+  color: #cdddf0;
+  border-bottom: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+@keyframes notificationGrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.item:hover .more-item {
+  /* display: block; */
+}
+
+.more-item::before {
+  content: "";
+  border-width: 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #4b8ed0 transparent;
+  position: absolute;
+  top: -19px;
+  right: 168px;
+  z-index: -1;
+}
+
+/*/////////////////////////////////////////////////////*/
+#navbar .more-item-1 {
+  position: absolute;
+  top: 84%;
+  background-color: rgb(75, 142, 208);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.more-item-1 {
+  position: absolute;
+  border-radius: 5px;
+  width: 200px;
+  right: 33px;
+  list-style: none;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  animation: notificationGrowth 0.2s linear;
+  transform-origin: calc(100% - 160px) top;
+  will-change: opacity, transform;
+}
+
+.more-item-1__list {
+  padding: 6px 0 6px 12px;
+  line-height: 20px;
+  border-bottom: 1px solid #fff;
+  font-size: 13px;
+}
+
+.more-item-1__list:last-child {
+  border-bottom: none;
+}
+
+.more-item-1__list:hover {
+  color: #cdddf0;
+  border-bottom: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.16);
+}
+
+.item:hover .more-item-1 {
+  /* display: block; */
+}
+
+.more-item-1::before {
+  content: "";
+  border-width: 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #4b8ed0 transparent;
+  position: absolute;
+  top: -19px;
+  right: 169px;
+  z-index: -1;
+}
+
+.language {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__flag {
+  width: 22px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.language__flag:hover {
+  cursor: pointer;
+}
+
+.language__translate {
+  color: #fff;
+  margin-left: 7px;
+}
+
+.i {
+}
